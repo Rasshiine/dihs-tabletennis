@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    color: #492960;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 30px;
+    margin-top: 50px;
+    float: right;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+
+
+
+
+
+.content {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+h2 {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 60px;
+    font-family: Futura-Bol;
+}
+
+h3 {
+    margin: 0px 0px 50px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.under {
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: solid 5px #492960;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: url(img/header01.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.logo {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.odd {
+    background-color: #492960;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.odd h2 {
+    color: #fff;
+}
+
+.odd h3 {
+    color: #fff;
+}
+
+.odd p {
+    color: #fff;
+}
+
+.even {
+    background-color: #fff;
+    padding: 50px 10px;
+    /*    text-align: center;*/
+}
+
+.even h2 {
+    color: #492960;
+}
+
+.even h3 {
+    color: #492960;
+}
+
+
+
+
+
+.teamimg {
+    width: 600px;
+    margin: auto 0;
+}
+
+.teambox {
+    text-align: center;
+}
+
+.teambox p{
+    padding: 20px 0px;
+}
+
+.featuresbox {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.description1 {
+    width: 45%;
+    height: 200px;
+    float: left;
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.description2 {
+    width: 45%;
+    height: 200px;
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.floatleft{
+    float: left;
+}
+
+.description p{
+    margin-top: 25px;
+}
+
+#features img {
+    width: 400px;
+    box-shadow: 15px 15px 0px 0 #492960;
+}
+
+.membersbox {
+    margin: 0 auto;
+    width: 900px;
+    height: 300px;
+    padding: 75px 50px;
+    background-color: #fff;
+    display: table;
+}
+
+.membersbox p {
+    color: #000;
+    text-align: left;
+    width: 500px;
+    font-size: 12px;
+}
+
+.membersbox img {
+    width: 300px;
+    float: left;
+}
+
+.sentences {
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    /*    float: right;*/
+}
+
+/*
+#members img {
+    width: 300px;
+}
+*/
+
+#bold {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0px; 
+}
+
+
+.whitebox {
+    background-color: #fff;
+}
+
+.faqbox img{
+    float: left;
+/*    margin: 30px 0px;*/
+}
+
+.faqbox p{
+    float: left;
+}
+
+.icons {
+    width: 40px;
+}
